@@ -1,0 +1,20 @@
+.list {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.btn-success,
+.btn-danger {
+    padding: 0 2px;
+    overflow: hidden;
+    width: 40px!important;
+    height: 20px!important;
+    font-size: 3px!important;
+    text-align: center;
+    line-height: 10px!important;
+}

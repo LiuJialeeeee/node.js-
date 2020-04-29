@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        main {
+            width: 500px;
+            margin: 20px auto;
+        }
+        
+        .hobby {
+            display: inline-block;
+            padding: 2px 20px 2px 0;
+            line-height: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">用户名</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="请填写用户名">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">年龄</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">邮箱</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="User@163.com">
+            </div>
+            <div class="form-group form-check">
+                <div class="hobby">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">足球</label>
+                </div>
+                <div class="hobby">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">篮球</label></div>
+                <div class="hobby"> <input type="checkbox" class="form-check-input" checked="checked" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">橄榄球</label>
+                </div>
+                <div class="hobby"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">抽烟</label>
+                </div>
+                <div class="hobby"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">喝酒</label>
+                </div>
+                <div class="hobby"> <input type="checkbox" checked="checked" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">烫头</label>
+                </div>
+                <div class="hobby"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">敲代码</label>
+                </div>
+                <div class="hobby"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">放屁</label>
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary">添加用户</button>
+        </form>
+    </main>
+</body>
+
+</html>
